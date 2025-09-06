@@ -2,7 +2,7 @@
     <AppLayout>
         <div class="p-6 space-y-4 bg-gradient min-h-screen">
             <div class="flex justify-center items-center">
-                <h1 class="text-2xl font-bold welcome-banner animate-soft-bounce pixel-outline w-fit py-2 px-10">History</h1>
+                <h1 class="text-2xl text-center font-bold welcome-banner animate-soft-bounce pixel-outline w-fit py-2 px-10">History</h1>
             </div>
             <div class="p-6 bg-container">
                 <div v-if="records.data.length === 0" class="text-center text-muted-foreground">

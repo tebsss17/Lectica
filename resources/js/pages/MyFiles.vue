@@ -70,7 +70,7 @@ const breadcrumbs: BreadcrumbItem[] = [
 
             <div class="bg-gradient p-6 space-y-4 min-h-screen">
                 <div class="flex flex-col justify-center items-center">
-                    <h1 class="text-3xl font-bold welcome-banner md:py-2 md:px-8 py-2 px-2 animate-soft-bounce items-center justify-center">My Files</h1>
+                    <h1 class="text-3xl font-bold welcome-banner md:py-2 md:px-8 py-2 px-2 animate-soft-bounce text-center justify-center pixel-outline">My Files</h1>
                 </div>
 
                 <!-- If no files are uploaded -->

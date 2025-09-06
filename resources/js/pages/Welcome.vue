@@ -22,14 +22,6 @@ const props = defineProps();
                 <!--</div>-->
 
                 <!-- Navigation on the right -->
-                <!-- <nav class="flex items-center gap-4">
-                    <Link
-                        v-if="$page.props.auth.user"
-                        :href="route('home')"
-                        class="inline-block rounded-sm border border-[#19140035] px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
-                    >
-                        Home
-                    </Link> -->
 <!--                    <template v-else>-->
 <!--                        <Link-->
 <!--                            :href="route('login')"-->
@@ -44,7 +36,6 @@ const props = defineProps();
 <!--                            Register-->
 <!--                        </Link>-->
 <!--                    </template>-->
-                <!-- </nav> -->
             </div>
         </header>
         <div class="duration-750 starting:opacity-0 flex w-full items-center justify-center opacity-100 transition-opacity lg:grow">
@@ -59,6 +50,15 @@ const props = defineProps();
                     <div
                     class=" text-center"
                     >
+                    <nav class="flex items-center gap-4">
+                            <Link
+                        v-if="$page.props.auth.user"
+                        :href="route('home')"
+                        class="inline-block rounded-sm border border-[#19140035] px-5 py-1.5 bg-blue-500 text-[#fdf6ee] hover:bg-blue-600 border-blue-700 pixel-outline"
+                    >
+                        Home
+                    </Link>
+                        </nav>
                     <div class="flex justify-center items-center logo-fall">
                         <img src="/lectica-logo.gif" alt="Lectica Logo" class="md:h-60 md:w-60 h-40 w-40 mb-5 animate-soft-bounce"/>
                     </div>

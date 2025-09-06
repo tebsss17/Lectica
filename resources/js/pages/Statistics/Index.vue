@@ -71,7 +71,7 @@ onMounted(async () => {
     <AppLayout>
         <div class="p-6 space-y-4 bg-gradient">
                 <div class="flex justify-center items-center">
-                <h1 class="text-2xl font-bold welcome-banner py-2 px-10 w-fit pixel-outline animate-soft-bounce">Usage and Statistics</h1>
+                <h1 class="text-2xl text-center font-bold welcome-banner py-2 px-10 w-fit pixel-outline animate-soft-bounce">Usage and Statistics</h1>
                 </div>
                 <div class="p-6 bg-container min-h-screen">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4">
